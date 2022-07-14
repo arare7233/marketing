@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    animation: bgcolor 10s ease infinite;
+    background-color: #e5c1cd;
+}
+
+@keyframes bgcolor {
+    0%  { background-color: #e5c1cd; }
+    25% { background-color: #a7d9ff; }
+    75% { background-color: #f3c974; }
+}
