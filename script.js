@@ -1,11 +1,11 @@
 $(function() {
-  $("section").find("h1").on("click",function(){
+  $("section").find("h1").on("click", function(){
     if ($(this).next().css("display") === "none") {
       //$(this).next().show();
-      $(this).next().slideDown(500);
+      $(this).next().stop().slideDown();
     } else {
       //$(this).next().hide();
-      $(this).next().stop().slideUp(500);
-    }    
+      $(this).next().stop().slideUp();
+    }
   });
 });
